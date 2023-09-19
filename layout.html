@@ -1,0 +1,97 @@
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<header>
+  <h2>Descrição</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><img src="brasil2.jpg" alt="W3Schools.com" width="330" height="260"></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Camisa Nike Brasil I 2022/23 Torcedor Pro Masculina - Amarelo</h1>
+    <p>Assim como outras camisas da nossa coleção Stadium, esse modelo combina detalhes de design de réplica com tecido que absorve o suor para oferecer um visual preparado para o jogo e inspirado na sua seleção favorita. Benefícios Tecnologia Nike Dri-FIT absorve o suor da sua pele para evaporação mais rápida, ajudando a manter você seco e confortável. O design de réplica é baseado naquele que os craques usam em campo. Detalhes do Produto 100% poliéster Lavável à máquina Importado Tamanho & Caimento Produto com modelagem justa. Considere adquirir um tamanho maior caso deseje um caimento mais solto. P - Busto 88-96 Cintura 73-81 Quadril 88-96 M - Busto 96-104 Cintura 81-89 Quadril 96-104 G - Busto 104-112 Cintura 89-97 Quadril 104-112 GG - Busto 112-124 Cintura 97-109 Quadril 112-120 GGG - Busto 124-136 Cintura 109-121 Quadril 120-128 Medidas em cm.</p>
+    
+  </article>
+</section>
+
+<footer>
+  <p><a href="file:///C:/Users/Lab05PC03/Desktop/Page%203b.html">Voltar</a></p>
+</footer>
+
+</body>
+</html>
